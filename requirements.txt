@@ -1,0 +1,4 @@
+scipy>=1.0.0
+numpy>=1.16
+Keras>=2.2.0
+chumpy>=0.67.5
