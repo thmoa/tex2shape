@@ -21,6 +21,25 @@ Download pre-trained model weights from [here](https://drive.google.com/open?id=
 unzip <downloads_folder>/weights_tex2shape.zip -d weights
 ```
 
+## Requirements
+
+* Python 2.7
+* tensorflow
+* keras
+* chumpy
+* openCV
+
+### Installation through conda
+
+```
+conda create --name py2 python=2.7
+conda activate py2
+pip install tensorflow-gpu
+pip install keras
+pip install chumpy
+pip install opencv-python
+```
+
 
 ## Usage
 
