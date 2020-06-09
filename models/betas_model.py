@@ -1,7 +1,7 @@
 from keras.models import Model
 from keras.layers import Input, Conv2D, LeakyReLU, BatchNormalization, Dense, Flatten, MaxPool2D
 
-from base_model import BaseModel
+from models.base_model import BaseModel
 
 
 class BetasModel(BaseModel):
