@@ -4,8 +4,8 @@ import os
 import numpy as np
 import scipy.sparse as sp
 
-from smpl import Smpl
-from maps import normalize
+from lib.smpl import Smpl
+from lib.maps import normalize
 
 if sys.version_info[0] == 3:
     import _pickle as pkl
